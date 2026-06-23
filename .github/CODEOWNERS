@@ -1,0 +1,5 @@
+# Every change requires review by a Nekko Labs maintainer before merge.
+# CODEOWNERS lives on the base branch, so it applies to pull requests from forks.
+# This human review gate is load-bearing: automated CI can prove a skill is
+# well-formed and statically clean, but cannot prove it is safe.
+*       @nekkolabs/skills-maintainers

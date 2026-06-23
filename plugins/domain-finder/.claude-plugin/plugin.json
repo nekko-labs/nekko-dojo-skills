@@ -1,0 +1,10 @@
+{
+  "name": "domain-finder",
+  "description": "Brainstorm startup/project names, check domain availability across TLDs via RDAP, and vet brand/trademark conflicts.",
+  "version": "1.0.0",
+  "author": { "name": "Nekko Labs", "url": "https://nekkolabs.com" },
+  "homepage": "https://nekkolabs.com/dojo/skills/domain-finder",
+  "repository": "https://github.com/nekkolabs/nekko-dojo-skills",
+  "license": "MIT",
+  "keywords": ["domains", "naming", "branding", "rdap", "startup", "trademark"]
+}

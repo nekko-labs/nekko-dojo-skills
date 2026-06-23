@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "nekko-dojo-skills",
+  "owner": { "name": "Nekko Labs", "url": "https://nekkolabs.com" },
+  "metadata": {
+    "description": "Agent Skills hub by Nekko Labs — official + community-contributed Claude skills. Browse at https://nekkolabs.com/dojo/skills",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "domain-finder",
+      "source": "./plugins/domain-finder",
+      "description": "Brainstorm startup/project names, check domain availability across TLDs via RDAP, and vet brand/trademark conflicts.",
+      "version": "1.0.0",
+      "author": "Nekko Labs",
+      "homepage": "https://nekkolabs.com/dojo/skills/domain-finder",
+      "license": "MIT",
+      "category": "research",
+      "keywords": ["domains", "naming", "branding", "rdap", "startup", "trademark"]
+    }
+  ]
+}
