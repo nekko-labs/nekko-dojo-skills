@@ -24,7 +24,7 @@ skills directly into your agent and get updates pulled in automatically.
 
 ```bash
 # Add this marketplace once
-/plugin marketplace add nekkolabs/nekko-dojo-skills
+/plugin marketplace add nekko-labs/nekko-dojo-skills
 
 # Install a skill
 /plugin install domain-finder@nekko-dojo-skills

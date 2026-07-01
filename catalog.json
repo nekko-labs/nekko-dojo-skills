@@ -1,7 +1,7 @@
 {
   "$comment": "Machine-readable index of skills installable from this marketplace. Consumed by the Nekko Dojo website (https://nekkolabs.com/dojo/skills). Curated external skills are catalogued on the website itself (link-only), not here. Keep entries in sync with .claude-plugin/marketplace.json.",
   "marketplace": "nekko-dojo-skills",
-  "addCommand": "/plugin marketplace add nekkolabs/nekko-dojo-skills",
+  "addCommand": "/plugin marketplace add nekko-labs/nekko-dojo-skills",
   "skills": [
     {
       "id": "domain-finder",
@@ -15,7 +15,7 @@
       "version": "1.0.0",
       "license": "MIT",
       "installCommand": "/plugin install domain-finder@nekko-dojo-skills",
-      "sourceUrl": "https://github.com/nekkolabs/nekko-dojo-skills/tree/main/plugins/domain-finder"
+      "sourceUrl": "https://github.com/nekko-labs/nekko-dojo-skills/tree/main/plugins/domain-finder"
     }
   ]
 }

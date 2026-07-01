@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://github.com/nekkolabs/nekko-dojo-skills/schema/skill-frontmatter.schema.json",
+  "$id": "https://github.com/nekko-labs/nekko-dojo-skills/schema/skill-frontmatter.schema.json",
   "title": "Agent Skill frontmatter",
   "description": "Validates the YAML frontmatter of a SKILL.md against the agentskills.io open standard plus Nekko Dojo submission rules.",
   "type": "object",
