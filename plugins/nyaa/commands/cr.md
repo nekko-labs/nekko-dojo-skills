@@ -1,15 +1,15 @@
 ---
-description: review-nyaa — summon the council of reviewer cats over a PR or the working diff (pulls in external bot reviews too)
+description: nyaa — summon the council of reviewer cats over a PR or the working diff (pulls in external bot reviews too)
 argument-hint: "[PR number | empty for current branch / working diff]"
 allowed-tools: Bash(gh:*), Bash(git:*), Bash(pnpm:*), Bash(npm:*), Read, Grep, Glob
 ---
 
-# /cr — code review (review-nyaa council)
+# /cr — code review (nyaa council)
 
-Convene **review-nyaa**, a council of reviewer cats, over a code change. This is
-the explicit trigger for the `review-nyaa` skill in this plugin — follow the
+Convene **nyaa**, a council of reviewer cats, over a code change. This is
+the explicit trigger for the `nyaa` skill in this plugin — follow the
 skill's workflow. The four lens checklists are bundled at
-`${CLAUDE_PLUGIN_ROOT}/skills/review-nyaa/references/` (kuro / tora / mochi / shiro).
+`${CLAUDE_PLUGIN_ROOT}/skills/nyaa/references/` (kuro / tora / mochi / shiro).
 
 Argument: `$ARGUMENTS` — a PR number, or empty.
 
@@ -71,7 +71,7 @@ independent lenses**. Read the bundled `references/*.md` for the full checklists
 Merge external findings + council findings. De-dupe. Output:
 
 ```
-🐈‍⬛ review-nyaa — N issues (X blocking, Y informational)
+🐈‍⬛ nyaa — N issues (X blocking, Y informational)
 External bots: <Codex verdict / skipped / none>
 
 BLOCKING
@@ -85,4 +85,4 @@ Informational
 
 Tag each finding with the cat that raised it. Be terse — one line problem, one
 line fix. Cite `file:line`. Only flag real problems; if a lens is clean, omit it.
-If nothing: `🐈‍⬛ review-nyaa — no issues found. nyaa~`
+If nothing: `🐈‍⬛ nyaa — no issues found. nyaa~`

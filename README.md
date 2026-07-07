@@ -38,7 +38,7 @@ skills directly into your agent and get updates pulled in automatically.
 | Skill | Tier | Category | Description |
 |---|---|---|---|
 | [domain-finder](plugins/domain-finder) | Nekko official | research | Brainstorm startup/project names, check domain availability across TLDs via RDAP, and vet brand/trademark conflicts. |
-| [review-nyaa](plugins/review-nyaa) | Nekko official | engineering | Convene a council of four reviewer cats (security, deps/supply-chain, correctness/concurrency, style) over a PR or working diff, pulling in external bot reviews too. |
+| [nyaa](plugins/nyaa) | Nekko official | engineering | Convene a council of four reviewer cats (security, deps/supply-chain, correctness/concurrency, style) over a PR or working diff, pulling in external bot reviews too. |
 
 ## Repository layout
 
