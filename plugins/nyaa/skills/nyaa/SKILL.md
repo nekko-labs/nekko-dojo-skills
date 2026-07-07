@@ -1,5 +1,5 @@
 ---
-name: review-nyaa
+name: nyaa
 description: Convene a council of four independent reviewer cats over a code change and merge their findings into one verdict. Use when the user wants to review a pull request or the working diff, asks for a code review, wants a second opinion before merging/shipping, or wants security / dependency / supply-chain / concurrency / correctness / style review of a diff. Also pulls in external bot reviews (Codex, Dependabot) for the PR. Trigger on "review this PR", "review my diff", "code review", "look over this change before I ship".
 license: MIT
 allowed-tools: Bash(gh:*) Bash(git:*) Bash(pnpm:*) Bash(npm:*) Bash(yarn:*) Bash(cargo:*) Bash(ruff:*) Read Grep Glob
@@ -10,9 +10,9 @@ metadata:
   tags: code-review, pull-request, security, dependencies, supply-chain, concurrency, lint
 ---
 
-# review-nyaa 🐈‍⬛
+# nyaa 🐈‍⬛
 
-Convene **review-nyaa**, a council of reviewer cats, over a code change. Instead
+Convene **nyaa**, a council of reviewer cats, over a code change. Instead
 of one monolithic reviewer, four cats each review through a single sharp lens,
 then their findings merge into one verdict. It complements — not replaces — the
 external bots (Codex, Dependabot).
@@ -85,7 +85,7 @@ form:
 Merge external findings + council findings. De-dupe. Output:
 
 ```
-🐈‍⬛ review-nyaa — N issues (X blocking, Y informational)
+🐈‍⬛ nyaa — N issues (X blocking, Y informational)
 External bots: <Codex verdict / skipped / none>
 
 BLOCKING
@@ -99,4 +99,4 @@ Informational
 
 Tag each finding with the cat that raised it. Be terse — one line problem, one
 line fix. Cite `file:line`. Only flag real problems; if a lens is clean, omit it.
-If nothing: `🐈‍⬛ review-nyaa — no issues found. nyaa~`
+If nothing: `🐈‍⬛ nyaa — no issues found. nyaa~`
