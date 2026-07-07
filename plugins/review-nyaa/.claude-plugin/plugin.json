@@ -1,0 +1,10 @@
+{
+  "name": "review-nyaa",
+  "description": "Convene a council of four reviewer cats (security, deps/supply-chain, correctness/concurrency, style) over a PR or working diff, pulling in external bot reviews too.",
+  "version": "1.0.0",
+  "author": { "name": "Nekko Labs", "url": "https://nekkolabs.com" },
+  "homepage": "https://nekkolabs.com/dojo/skills/review-nyaa",
+  "repository": "https://github.com/nekko-labs/nekko-dojo-skills",
+  "license": "MIT",
+  "keywords": ["code-review", "pull-request", "security", "dependencies", "supply-chain", "concurrency", "lint"]
+}

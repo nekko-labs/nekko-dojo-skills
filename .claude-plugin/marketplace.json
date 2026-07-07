@@ -17,6 +17,17 @@
       "license": "MIT",
       "category": "research",
       "keywords": ["domains", "naming", "branding", "rdap", "startup", "trademark"]
+    },
+    {
+      "name": "review-nyaa",
+      "source": "./plugins/review-nyaa",
+      "description": "Convene a council of four reviewer cats (security, deps/supply-chain, correctness/concurrency, style) over a PR or working diff, pulling in external bot reviews too.",
+      "version": "1.0.0",
+      "author": "Nekko Labs",
+      "homepage": "https://nekkolabs.com/dojo/skills/review-nyaa",
+      "license": "MIT",
+      "category": "engineering",
+      "keywords": ["code-review", "pull-request", "security", "dependencies", "supply-chain", "concurrency", "lint"]
     }
   ]
 }
