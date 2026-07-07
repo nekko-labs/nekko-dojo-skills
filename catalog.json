@@ -16,6 +16,20 @@
       "license": "MIT",
       "installCommand": "/plugin install domain-finder@nekko-dojo-skills",
       "sourceUrl": "https://github.com/nekko-labs/nekko-dojo-skills/tree/main/plugins/domain-finder"
+    },
+    {
+      "id": "review-nyaa",
+      "name": "review-nyaa",
+      "slug": "review-nyaa",
+      "tier": "nekko-official",
+      "category": "engineering",
+      "description": "Convene a council of four reviewer cats (security, deps/supply-chain, correctness/concurrency, style) over a PR or working diff, pulling in external bot reviews too.",
+      "tags": ["code-review", "pull-request", "security", "dependencies", "supply-chain", "concurrency", "lint"],
+      "author": "Nekko Labs",
+      "version": "1.0.0",
+      "license": "MIT",
+      "installCommand": "/plugin install review-nyaa@nekko-dojo-skills",
+      "sourceUrl": "https://github.com/nekko-labs/nekko-dojo-skills/tree/main/plugins/review-nyaa"
     }
   ]
 }
