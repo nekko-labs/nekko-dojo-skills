@@ -18,6 +18,20 @@
       "sourceUrl": "https://github.com/nekko-labs/nekko-dojo-skills/tree/main/plugins/domain-finder"
     },
     {
+      "id": "resume-checker",
+      "name": "Resume Checker",
+      "slug": "resume-checker",
+      "tier": "nekko-official",
+      "category": "career",
+      "description": "Check a resume against automated candidate-screening (ATS) signals and AI-centric job expectations, score it against specific job postings, then interactively apply fixes and show exactly what changed.",
+      "tags": ["resume", "cv", "ats", "job-hunt", "career", "screening", "ai-roles"],
+      "author": "Nekko Labs",
+      "version": "1.0.0",
+      "license": "MIT",
+      "installCommand": "/plugin install resume-checker@nekko-dojo-skills",
+      "sourceUrl": "https://github.com/nekko-labs/nekko-dojo-skills/tree/main/plugins/resume-checker"
+    },
+    {
       "id": "nyaa",
       "name": "nyaa",
       "slug": "nyaa",
