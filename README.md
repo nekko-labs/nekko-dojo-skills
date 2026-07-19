@@ -39,6 +39,7 @@ skills directly into your agent and get updates pulled in automatically.
 |---|---|---|---|
 | [domain-finder](plugins/domain-finder) | Nekko official | research | Brainstorm startup/project names, check domain availability across TLDs via RDAP, and vet brand/trademark conflicts. |
 | [nyaa](plugins/nyaa) | Nekko official | engineering | Convene a council of four reviewer cats (security, deps/supply-chain, correctness/concurrency, style) over a PR or working diff, pulling in external bot reviews too. |
+| [resume-checker](plugins/resume-checker) | Nekko official | career | Check a resume against automated candidate-screening (ATS) signals and AI-centric job expectations, score it against specific jobs, then interactively apply fixes and show what changed. |
 
 ## Repository layout
 
