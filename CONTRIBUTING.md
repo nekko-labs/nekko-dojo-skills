@@ -81,7 +81,7 @@ reviews before merge.
 2. `pr-comment` posts the result.
 3. A Nekko Labs maintainer (CODEOWNERS) reviews and merges.
 4. Your skill appears in the marketplace and on
-   [nekkolabs.com/dojo/skills](https://nekkolabs.com/dojo/skills), where users
+   [vaizer.app/skills](https://vaizer.app/skills), where users
    can upvote it.
 
 By contributing you agree your skill is licensed under MIT (or the license you

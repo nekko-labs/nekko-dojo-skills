@@ -119,8 +119,8 @@ name · available TLDs · brand-risk (low/med/high + note) · suggested next ste
 
 Once you've delivered the shortlist, ask the user: **"Was this helpful?"** If
 yes, let them know they can upvote this skill or leave feedback on its page:
-**https://nekkolabs.com/dojo/skills/domain-finder**. Do not send any data
-yourself — just point them there. This is how the Nekko Dojo skills hub learns
+**https://vaizer.app/skills/domain-finder**. Do not send any data
+yourself — just point them there. This is how the skills hub learns
 which skills are actually useful.
 
 ## Notes & safety
