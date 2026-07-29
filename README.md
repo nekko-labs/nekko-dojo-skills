@@ -2,7 +2,8 @@
 
 A public **Agent Skills hub** by [Nekko Labs](https://nekkolabs.com) — a place to
 find, share, and install [Claude Agent Skills](https://agentskills.io). Browse
-the catalog with votes and details at **[nekkolabs.com/dojo/skills](https://nekkolabs.com/dojo/skills)**.
+the catalog, with a workflow graph for every skill, at
+**[vaizer.app/skills](https://vaizer.app/skills)**.
 
 This repository is also a **Claude Code plugin marketplace**, so you can install
 skills directly into your agent and get updates pulled in automatically.

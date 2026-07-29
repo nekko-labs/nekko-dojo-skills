@@ -1,5 +1,5 @@
 {
-  "$comment": "Machine-readable index of skills installable from this marketplace. Consumed by the Nekko Dojo website (https://nekkolabs.com/dojo/skills). Curated external skills are catalogued on the website itself (link-only), not here. Keep entries in sync with .claude-plugin/marketplace.json.",
+  "$comment": "Machine-readable index of skills installable from this marketplace. Consumed by Vaizer (https://vaizer.app/skills), which serves it on to the Nekko Dojo community page. Curated external skills are catalogued on the website itself (link-only), not here. Keep entries in sync with .claude-plugin/marketplace.json.",
   "marketplace": "nekko-dojo-skills",
   "addCommand": "/plugin marketplace add nekko-labs/nekko-dojo-skills",
   "skills": [
